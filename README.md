@@ -1,5 +1,3 @@
-Markdown · README.md
-
 # 🎬 SunNXT Downloader
 
 **A full-featured desktop GUI to download movies, shows, and web series from SunNXT with DRM support, multi-audio, quality selection, and live progress tracking.**
