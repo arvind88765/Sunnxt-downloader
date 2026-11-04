@@ -438,7 +438,7 @@ This tool is for personal and educational use only.
 
 ## Built by
 
-A lazy person with zero skills and an AI subscription. Entirely vibe-coded. If it works, great. If it doesn't, open an issue and maybe the AI will fix it.
+A lazy person with zero skills......
 
 ---
 
