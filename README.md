@@ -26,6 +26,15 @@
 
 ---
 
+## Demo
+
+
+https://github.com/user-attachments/assets/72a702b3-0bb2-48ca-8b44-d1af889cfb8c
+
+
+
+
+
 ## What is this?
 
 **SunNXT Downloader** is an open-source Python desktop application for downloading content from [SunNXT](https://www.sunnxt.com), one of India's major OTT platforms streaming Tamil, Telugu, Malayalam, Kannada, Hindi, and Bengali movies, TV shows, and web series.
