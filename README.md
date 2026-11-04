@@ -1,3 +1,5 @@
+Markdown · README.md
+
 # 🎬 SunNXT Downloader
 
 **A full-featured desktop GUI to download movies, shows, and web series from SunNXT with DRM support, multi-audio, quality selection, and live progress tracking.**
@@ -5,6 +7,12 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://python.org) [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?logo=github)](.) [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) [![GUI](https://img.shields.io/badge/GUI-Tkinter-orange)](.) [![DRM](https://img.shields.io/badge/DRM-Widevine%20L3-red)](.) [![Engine](https://img.shields.io/badge/Engine-N_m3u8DL--RE-purple)](https://github.com/nilaoda/N_m3u8DL-RE)
 
 > **Personal and educational use only. Read the [Disclaimer](#disclaimer) before anything else.**
+
+---
+
+## Demo
+
+[https://github.com/user-attachments/assets/72a702b3-0bb2-48ca-8b44-d1af889cfb8c](https://github.com/user-attachments/assets/72a702b3-0bb2-48ca-8b44-d1af889cfb8c)
 
 ---
 
@@ -26,15 +34,6 @@
 
 ---
 
-## Demo
-
-
-https://github.com/user-attachments/assets/72a702b3-0bb2-48ca-8b44-d1af889cfb8c
-
-
-
-
-
 ## What is this?
 
 **SunNXT Downloader** is an open-source Python desktop application for downloading content from [SunNXT](https://www.sunnxt.com), one of India's major OTT platforms streaming Tamil, Telugu, Malayalam, Kannada, Hindi, and Bengali movies, TV shows, and web series.
@@ -48,7 +47,7 @@ It reverse-engineers the SunNXT browser client's login flow, stream fetch API, a
 ## Features
 
 - AES-CBC encrypted login (email or phone number + password)
-- Session persistence: cookies saved to disk, auto-restored on next launch
+- Session persistence: cookies saved to disk, auto-restored on next launch (session valid for \~30 days)
 - Paste any SunNXT URL to fetch stream info automatically
 - Quality picker: 144p to 1080p or Best available
 - Multi-audio: Tamil, Telugu, Malayalam, Kannada, Hindi, Bengali, Marathi, English
@@ -172,6 +171,12 @@ sequenceDiagram
 ```
 
 > HttpOnly cookies do not appear in HAR exports. They are captured correctly by Python's `CookieJar` and are the actual auth credential, not the response body.
+
+## Session lasts \~1 month
+
+> **Log in once, done for about a month.**
+> 
+> The session cookies SunNXT issues after login are valid for approximately 30 days. The app saves them to `~/.sunnxt_cookies.txt` and the session metadata to `~/.sunnxt_session.json` after first login. Every future launch auto-restores the session silently. No re-login needed until the session expires.
 
 ---
 
@@ -447,7 +452,7 @@ This tool is for personal and educational use only.
 
 ## Built by
 
-A lazy person with zero skills......
+A lazy person with zero skills and an AI subscription. Entirely vibe-coded. If it works, great. If it doesn't, open an issue and maybe the AI will fix it.
 
 ---
 
